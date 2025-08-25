@@ -1,68 +1,68 @@
 
---1問
+--1
 
 SELECT uniform_num, name, club
 FROM players;
 
 
---2問
+--2
+
 
 SELECT *
 FROM countries
 WHERE group_name = 'C';
 
 
---3問
+--3
 
 
 SELECT *
 FROM countries
 WHERE group_name <> 'C';
 
---4問
-
+--4
 
 SELECT *
 FROM players
 WHERE birth <= '1985-08-25';
 
 
---5問
+--5
 
 SELECT *
 FROM players
 WHERE height < 170;
 
 
---6問
+--6
 
 SELECT *
 FROM countries
 WHERE ranking BETWEEN 36 AND 56;
 
 
---7問
+--7
 
 SELECT *
 FROM players
 WHERE position IN ('GK', 'DF', 'MF');
 
 
---8問
+--8
 
 SELECT *
 FROM goals
 WHERE player_id IS NULL;
 
 
---9問
+--9
 
 SELECT *
 FROM goals
 WHERE player_id IS NOT NULL;
 
 
---10問
+--10
 
 SELECT *
 FROM players
